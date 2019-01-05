@@ -41,24 +41,21 @@ This script was maintained by author: TeeKenLau.
    
     - Geth:   
     ```
-    ./geth.sh
-      
+      ./geth.sh
     ```
     
 5. Run `Chainlink` node.
    ```
-   ./link.sh
+    ./link.sh
    ```
    During this process, you will prompted with message entering your email and password. Note: This will be credential to login your account in Chainlink operator page locally.
    
-   You should now able to see this Chainlink is up and running by going to [localhost](`localhost:6688`)
-
-    
-7. To terminate/ force quit  the script.
-  ```
-    ctrl + c
-    
-  ```
+   You should now able to see this Chainlink is up and running by going to [localhost](http://localhost:6688)
+  
+6. To terminate/ force quit  the script.
+   ```
+      ctrl + c  
+   ```
 
 ## Contribution
 1. In Progress:
