@@ -14,19 +14,31 @@ This script was maintained by author: TeeKenLau.
      - Not supported yet. Coming soon.
 
 ## Setup
-1. Install git
+1. Install git  
 
- You can download them [here](https://gitforwindows.org/)
+   You can download them [here](https://gitforwindows.org/)
 
-2. Clone the repository
+2. Clone the repository 
+
+   If you have setup your RSA secret key in your local device, then use this:
    ```
    git clone git@github.com:teekenl/link-node-runner.git
    
    ```
+
+   Otherwise, use this:
+   ```
+   git clone https://github.com/teekenl/link-node-runner.git
+
+   ```
    
 3. Run the installation Script  
-   The script helps to install necessary files, eg: `Docker`.
+   **Note: Go/Navigate to the folder where you installed it.**
+
+   The script helps to install necessary files, eg: `Docker`.  
+
    ```
+
    # making it as an executable files.
    chmod +x ./install.sh
 
