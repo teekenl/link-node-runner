@@ -1,6 +1,7 @@
 # Automated Script for running Chainlink Node.
 A simple and automated script aimed to provide the accelerated access for the user to help them running their chainlink node easily.
 
+
 ## Maintainer
 This script was maintained by author: TeeKenLau.
 
@@ -38,24 +39,23 @@ This script was maintained by author: TeeKenLau.
    The script helps to install necessary files, eg: `Docker`.  
 
    ```
-
    # making it as an executable files.
    chmod +x ./install.sh
 
    # running the installation script.
    install.sh
    ```
-  
+
 4. Download and Run the Ethereum Test Network
 
-   Recommend to run this before, wait it to get synced until finished.   
+   Recommend to run this before, wait it to get synced until finished.  
    Ethereum Client:
-   
+
     - Geth:   
     ```
       ./geth.sh
     ```
-    
+  
 5. Run `Chainlink` node.
    ```
     ./link.sh
@@ -63,7 +63,7 @@ This script was maintained by author: TeeKenLau.
    During this process, you will prompted with message entering your email and password. Note: This will be credential to login your account in Chainlink operator page locally.
    
    You should now able to see this Chainlink is up and running by going to [localhost](http://localhost:6688)
-  
+
 6. To terminate/ force quit  the script.
    ```
       ctrl + c  
@@ -71,11 +71,10 @@ This script was maintained by author: TeeKenLau.
 
 ## Contribution
 1. In Progress:
-  - A script running `chainlink` node connected to the Ethereum network: `Mainnet`.
-  - Make it to be hostable.
-  
-Any contributions are welcomed.
+   - A script running `chainlink` node connected to the Ethereum network: `Mainnet`.
+   - Enabling it to be hostable.
+
+    Any contributions are welcomed.
 
 ## Reports
-If you have any problem of running the script, please send them to my way: teekenlau@gmail.com 
-
+If you detect any problems while running the script, please do not hestitate to contact me: teekenlau@gmail.com
